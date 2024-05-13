@@ -1,0 +1,48 @@
+:host {
+  display: block;
+}
+
+.custom-select {
+  position: relative;
+  margin: auto;
+  margin-top: 300px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.selected-value {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 10px;
+}
+
+.dropdown {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: calc(100% - -5px);
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.show {
+  display: flex;
+}
+
+.option {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
